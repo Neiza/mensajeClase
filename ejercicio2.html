@@ -15,13 +15,13 @@
   <span id="mensajeAqui"></span>
 
 	<script>
-	var elements = document.getElementsByClassName('mensaje');
-	var long 		 = elements.length;
+	var elements= document.getElementsByClassName('mensaje');
+	var long 		= elements.length;
   var a = function(){
 					return long<=1 			    	? "Es muy poco":
 								 (long>2 && long<4 )? "No está mal":
 								 long>=4 			   		? "Son muchos!":"";
-					}
+					};
 	 var m =document.getElementById('mensajeAqui');
 	 m.innerHTML=a();
 	</script>
